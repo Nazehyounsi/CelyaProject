@@ -23,7 +23,7 @@ print("Recognized text:", result[0]['generated_text'])
 # processor = TrOCRProcessor.from_pretrained(model_name)
 # model = VisionEncoderDecoderModel.from_pretrained(model_name)
 #
-# image_url = "YOUR_IMAGE_URL_HERE"  # Replace this with your image URL
+# image_url = "Test.png"  # Replace this with your image URL
 # image = Image.open(requests.get(image_url, stream=True).raw)
 #
 # inputs = processor(images=image, return_tensors="pt")
